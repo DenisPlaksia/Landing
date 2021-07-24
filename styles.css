@@ -183,8 +183,97 @@ body {
     font-weight: 800;
 }
 
-.example {
+.rent-container {
     margin-top: 80px;
     background-color: #f6f5f4;
     height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.rent-container-title{
+    padding-top: 65px;
+    height: 10%;
+    font-size: 28px;
+}
+
+.rent-container-example {
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px;
+    margin-bottom: 20px;
+}
+.rent-container-example-item {
+    height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #b1d7e8;
+}
+
+.item-content {
+
+}
+
+.item-content-image {
+
+}
+
+.item-content-description {
+    height: 60px;
+    background-color: white;
+    padding: 25px;
+}
+
+.description-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.price {
+    font-size: 18px;
+    color: #ffcc01;
+    align-self: flex-end;
+}
+.info-container {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    align-self: flex-end;
+}
+
+.info-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    align-self: flex-end;
+}
+
+.info-text {
+    align-self: flex-end;
+    margin-right: 20px;
+}
+
+
+
+.rent-container-end {
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 85px;
+}
+
+.rent-container-view button {
+    border: none;
+    height: 70px;
+    width: 250px;
+    border-radius: 4px;
+    margin-left: 50px;
+    background-color: white;
+}
+
