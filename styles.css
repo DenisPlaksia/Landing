@@ -19,19 +19,11 @@ body {
     font-weight: bold;
 }
 
-.header-navigation {
-
-}
-
 .header-navigation a {
     padding: 15px;
     text-decoration: none;
     color: black;
     font-size: 15px;
-}
-
-.header-end {
-
 }
 
 .header-end a {
@@ -48,7 +40,7 @@ body {
     border-radius: 5px;
 }
 
-.container {
+.company-info {
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -56,32 +48,32 @@ body {
     height: 630px;
 }
 
-.container-content {
+.company-info__content {
     grid-row: 2 / 2;
     grid-column: 1 / 4;
     z-index: 1;
     justify-items: center;
 }
 
-.container-title{
+.company-info__title{
     font-size: 60px;
     font-weight: bold;
     color: #1f373d;
 }
 
-.container-search-input {
+.company-info__search {
     margin-top: 60px;
     border: none;
 }
 
-.container-search-input input {
+.company-info__search input {
     height: 70px;
     width: 480px;
     border: none;
     margin: 0;
 }
 
-.container-search-input button {
+.company-info__search button {
     border: none;
     height: 72px;
     width: 115px;
@@ -90,7 +82,7 @@ body {
     border-radius: 4px;
 }
 
-.container-background {
+.company-info__background {
     background-color: #96bece;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -140,11 +132,15 @@ body {
     grid-template-rows: 1fr 2fr;
 }
 
-.company-statistic-title {
+.company-statistic__title {
     font-size: 45px;
 }
 
-.company-statistic-text {
+.company-statistic__title h1 {
+    color: black;
+}
+
+.company-statistic__text {
     grid-column-start: 1;
     grid-row-start: 2;
     line-height: 40px;
@@ -152,7 +148,7 @@ body {
     font-weight: 200;
 }
 
-.company-statistic-blocks {
+.company-statistic__carts {
     margin-left: 120px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -163,7 +159,7 @@ body {
     grid-row-end: 6;
 }
 
-.item {
+.company-statistic__content {
     background-color: #f6f5f4;
     display: flex;
     flex-direction: column;
@@ -172,13 +168,13 @@ body {
     font-weight: bold;
 }
 
-.item-title {
+.company-statistic__title {
     font-size: 50px;
     color: #ffcc01;
     padding-bottom: 15px;
 }
 
-.item-main{
+.company-statistic__main-text{
     font-size: 18px;
     font-weight: 800;
 }
@@ -300,6 +296,26 @@ body {
 }
 
 .how-work-blocks {
+    display: flex;
+    flex-direction: row;
+}
+.how-work-blocks-item {
+    background-color: #ffcc01;
+    width: 345px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.how-work-blocks-item-number {
+    height: 150px;
+}
+
+.blocks-item-title {
 
 }
 
+.how-work-blocks-main-text {
+
+}
