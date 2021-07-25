@@ -210,6 +210,7 @@ body {
     display: flex;
     flex-direction: column-reverse;
     background-color: #b1d7e8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .item-content {
@@ -259,8 +260,6 @@ body {
     margin-right: 20px;
 }
 
-
-
 .rent-container-end {
     height: 10%;
     display: flex;
@@ -275,5 +274,32 @@ body {
     border-radius: 4px;
     margin-left: 50px;
     background-color: white;
+}
+
+.how-works-container {
+    margin-top: 60px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+.how-works-title {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    line-height: 45px;
+}
+
+.how-works-title h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.how-works-title h3 {
+    font-weight: 300;
+}
+
+.how-work-blocks {
+
 }
 
