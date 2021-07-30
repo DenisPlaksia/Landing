@@ -66,7 +66,7 @@ body {
     border: none;
 }
 
-.company-info__search input {
+.company-info__search-input {
     height: 70px;
     width: 350px;
     border: none;
@@ -464,7 +464,7 @@ body {
 }
 
 .footer {
-    padding-top: 50px;
+    padding-top: 20px;
     background-color: #1f373d;
     height: 350px;
     display: flex;
@@ -475,6 +475,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 20px;
 }
 
 .footer-content {
@@ -483,5 +485,5 @@ body {
 
 .white {
     color: #f6f5f4;
-    font-size: 24px;
+    font-size: 34px;
 }
